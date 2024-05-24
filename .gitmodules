@@ -1,3 +1,9 @@
 [submodule "gym_traffic/gccnet-envs"]
 	path = gym_traffic/gccnet-envs
 	url = git@github.com:apsdehal/gccnet-envs.git
+[submodule "atari-py"]
+	path = atari-py
+	url = https://github.com/openai/atari-py.git
+[submodule "baselines"]
+	path = baselines
+	url = https://github.com/openai/baselines.git
