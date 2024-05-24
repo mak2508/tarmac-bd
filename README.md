@@ -5,8 +5,10 @@
 ### Set up `virtualenv`
 
 ```
-virtualenv -p python3 .env
-source .env/bin/activate
+git submodule init
+git submodule update
+conda create -n tarmac --python=3.6.6
+conda activate tarmac
 pip install -r requirements.txt
 ```
 ### Environments
@@ -17,11 +19,6 @@ Download data from [here](https://www.dropbox.com/s/cabudxh0f23nduf/08_12_shapes
 `gym_shapes/data/shapes/` (for example `gym_shapes/data/shapes/data/shapes_3x3_single_red`, etc).
 
 #### Traffic junction (from [Sukhbaatar et al., NIPS 2016][commnets])
-
-```
-git submodule init
-git submodule update
-```
 
 #### House3D / MINOS
 
