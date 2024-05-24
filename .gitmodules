@@ -1,0 +1,3 @@
+[submodule "gym_traffic/gccnet-envs"]
+	path = gym_traffic/gccnet-envs
+	url = git@github.com:apsdehal/gccnet-envs.git

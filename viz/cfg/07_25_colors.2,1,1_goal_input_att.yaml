@@ -1,0 +1,17 @@
+dir:
+  base: checkpoints/07_25/
+  temp: tmp/imgs/07_25/
+  gif: tmp/gifs/07_25/
+  data: shapes_3x3_single_red
+  model: 07_25_150017_shapes_3x3_single_red,task=colors.2,1,1,num_agents=4,comm_mode=from_states_rec_att,step_size=2,num_steps=30,state_size=128,comm_size=32,fix_spawn=False,fix_image=False
+task:
+  goal: colors.2,1,1
+  num_agents: 4
+  step_size: 2
+  num_steps: 30
+  obs_height: 5
+  obs_width: 5
+  fix_spawn: false
+  fix_image: false
+render:
+  fps: 10

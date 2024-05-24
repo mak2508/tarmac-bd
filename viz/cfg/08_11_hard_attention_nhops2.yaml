@@ -1,0 +1,11 @@
+env: TrafficEnv
+dir:
+  base: checkpoints/08_08/
+  temp: tmp/imgs/08_08/
+  gif: tmp/gifs/08_08/
+  model: 08_08_164417_TrafficEnv-v0,difficulty=hard,comm_mode=from_states_rec_att,comm_nhops=2,state_size=128,comm_size=32
+task:
+  num_steps: 50
+  difficulty: hard
+render:
+  fps: 10
